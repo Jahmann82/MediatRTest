@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatRTest1", "MediatRTest1\MediatRTest1.csproj", "{1DAA7682-7F76-442D-8711-6ED428A5B4ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatRTest1.Contracts", "MediatRTest1.Contracts\MediatRTest1.Contracts.csproj", "{1CCC67CE-3F09-4CDA-AC99-FCF1F22A2C28}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1DAA7682-7F76-442D-8711-6ED428A5B4ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DAA7682-7F76-442D-8711-6ED428A5B4ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DAA7682-7F76-442D-8711-6ED428A5B4ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DAA7682-7F76-442D-8711-6ED428A5B4ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CCC67CE-3F09-4CDA-AC99-FCF1F22A2C28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CCC67CE-3F09-4CDA-AC99-FCF1F22A2C28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CCC67CE-3F09-4CDA-AC99-FCF1F22A2C28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CCC67CE-3F09-4CDA-AC99-FCF1F22A2C28}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

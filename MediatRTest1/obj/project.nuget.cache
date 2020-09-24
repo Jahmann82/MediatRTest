@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "C4jcpRMEHDuK5TKjY92arGCEnjqHjfM+QE7XKd+9lhsS0GyP5lzST6j/pj7D3633Y3duDE90gud/Pr1fbN9x6A==",
+  "success": true,
+  "projectFilePath": "C:\\Development\\Playground\\MediatRTest\\MediatRTest1\\MediatRTest1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ronny.Wullschleger\\.nuget\\packages\\fluentvalidation\\9.3.0-preview2\\fluentvalidation.9.3.0-preview2.nupkg.sha512",
+    "C:\\Users\\Ronny.Wullschleger\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\9.3.0-preview2\\fluentvalidation.dependencyinjectionextensions.9.3.0-preview2.nupkg.sha512",
+    "C:\\Users\\Ronny.Wullschleger\\.nuget\\packages\\galaxus.functional\\3.1.1\\galaxus.functional.3.1.1.nupkg.sha512",
+    "C:\\Users\\Ronny.Wullschleger\\.nuget\\packages\\mediatr\\8.1.0\\mediatr.8.1.0.nupkg.sha512",
+    "C:\\Users\\Ronny.Wullschleger\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\8.1.0\\mediatr.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",
+    "C:\\Users\\Ronny.Wullschleger\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

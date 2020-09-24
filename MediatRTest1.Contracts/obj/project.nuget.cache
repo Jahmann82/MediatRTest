@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "FW9XYPelKEqi964CpF8c7isvaalMxjESwkR6HEpc1on4ZqDfyTDYcMiaF9a46CQUc/3SofRW/gdqSbdoS7onWg==",
+  "success": true,
+  "projectFilePath": "C:\\Development\\Playground\\MediatRTest\\MediatRTest1.Contracts\\MediatRTest1.Contracts.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ronny.Wullschleger\\.nuget\\packages\\galaxus.functional\\3.1.1\\galaxus.functional.3.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}

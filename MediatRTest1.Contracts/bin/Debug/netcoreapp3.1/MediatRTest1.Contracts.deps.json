@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "MediatRTest1.Contracts/1.0.0": {
+        "dependencies": {
+          "Galaxus.Functional": "3.1.1"
+        },
+        "runtime": {
+          "MediatRTest1.Contracts.dll": {}
+        }
+      },
+      "Galaxus.Functional/3.1.1": {
+        "runtime": {
+          "lib/netstandard2.0/Galaxus.Functional.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MediatRTest1.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Galaxus.Functional/3.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JOMhB4grnbtYHU1oYgf3W/dwxujgKyDtkQqauIQVQqI0BMypW4jg1O0piI8hMfN3HYL+rCQdADsD+eeVbbityw==",
+      "path": "galaxus.functional/3.1.1",
+      "hashPath": "galaxus.functional.3.1.1.nupkg.sha512"
+    }
+  }
+}
