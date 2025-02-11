@@ -1,35 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Development\\Playground\\MediatRTest\\MediatRTest1.Contracts\\MediatRTest1.Contracts.csproj": {}
+    "C:\\Development\\MediatRTest\\MediatRTest1.Contracts\\MediatRTest1.Contracts.csproj": {}
   },
   "projects": {
-    "C:\\Development\\Playground\\MediatRTest\\MediatRTest1.Contracts\\MediatRTest1.Contracts.csproj": {
+    "C:\\Development\\MediatRTest\\MediatRTest1.Contracts\\MediatRTest1.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Development\\Playground\\MediatRTest\\MediatRTest1.Contracts\\MediatRTest1.Contracts.csproj",
+        "projectUniqueName": "C:\\Development\\MediatRTest\\MediatRTest1.Contracts\\MediatRTest1.Contracts.csproj",
         "projectName": "MediatRTest1.Contracts",
-        "projectPath": "C:\\Development\\Playground\\MediatRTest\\MediatRTest1.Contracts\\MediatRTest1.Contracts.csproj",
-        "packagesPath": "C:\\Users\\Ronny.Wullschleger\\.nuget\\packages\\",
-        "outputPath": "C:\\Development\\Playground\\MediatRTest\\MediatRTest1.Contracts\\obj\\",
+        "projectPath": "C:\\Development\\MediatRTest\\MediatRTest1.Contracts\\MediatRTest1.Contracts.csproj",
+        "packagesPath": "C:\\Users\\ronny\\.nuget\\packages\\",
+        "outputPath": "C:\\Development\\MediatRTest\\MediatRTest1.Contracts\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Ronny.Wullschleger\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\ronny\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\LocalNugetFeed": {},
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://pkgs.dev.azure.com/digitecgalaxus/_packaging/Devinite/nuget/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -37,10 +32,17 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Galaxus.Functional": {
               "target": "Package",
@@ -53,16 +55,31 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
