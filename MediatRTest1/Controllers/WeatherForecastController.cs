@@ -47,5 +47,17 @@ namespace MediatRTest1.Controllers
 
             return weatherForecasts;
         }
+
+        [HttpGet("historical/{region}")]
+        public IEnumerable<WeatherForecast> GetHistoricalWeatherData(string region)
+        {
+            logger.LogInformation($"************************************************");
+            logger.LogInformation("Handling GetHistoricalWeatherData");
+            var historicalWeatherData = weatherForecastService.GetHistoricalWeatherData(region);
+            logger.LogInformation("Handled GetHistoricalWeatherData");
+            logger.LogInformation($"************************************************");
+
+            return historicalWeatherData;
+        }
     }
 }
